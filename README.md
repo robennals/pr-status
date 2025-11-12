@@ -19,7 +19,7 @@ Never lose track of your PRs again! This tool analyzes all your open pull reques
 Install globally to use from anywhere:
 
 ```bash
-npm install -g pr-status
+npm install -g @robennals/pr-status
 ```
 
 Then run:
@@ -33,7 +33,7 @@ pr-status
 For use in a specific project:
 
 ```bash
-npm install pr-status
+npm install @robennals/pr-status
 ```
 
 Then run using:
@@ -47,7 +47,7 @@ Or add to your `package.json` scripts:
 ```json
 {
   "scripts": {
-    "check-prs": "pr-status"
+    "pr-status": "@robennals/pr-status"
   }
 }
 ```

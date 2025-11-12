@@ -1,5 +1,5 @@
 {
-  "name": "pr-status",
+  "name": "@robennals/pr-status",
   "version": "1.0.0",
   "type": "module",
   "description": "A beautiful CLI tool to check the status of your open GitHub pull requests, categorized by priority and action needed",
