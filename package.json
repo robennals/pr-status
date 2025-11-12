@@ -1,0 +1,52 @@
+{
+  "name": "pr-status",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A beautiful CLI tool to check the status of your open GitHub pull requests, categorized by priority and action needed",
+  "main": "dist/index.js",
+  "bin": {
+    "pr-status": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "github",
+    "pull-request",
+    "pr",
+    "status",
+    "cli",
+    "developer-tools",
+    "code-review",
+    "git",
+    "github-cli"
+  ],
+  "author": "Rob Ennals <rob.ennals@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robennals/pr-status"
+  },
+  "bugs": {
+    "url": "https://github.com/robennals/pr-status/issues"
+  },
+  "homepage": "https://github.com/robennals/pr-status#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
